@@ -3,7 +3,7 @@
 proctype P(){
 	int counter = 0;
 	do
-	:: counter<N -> printf("P␣"); counter++
+	:: counter<N -> printf("P␣\n"); counter++
 	:: else -> break
 	od
 
@@ -12,7 +12,7 @@ proctype P(){
 proctype Q(){
 	int counter = 0;
         do
-        :: counter<N -> printf("Q␣"); counter++
+        :: counter<N -> printf("Q␣\n"); counter++
         :: else -> break
         od
 
